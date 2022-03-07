@@ -2,6 +2,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   daisyui: {
     styled: true,
@@ -20,7 +21,7 @@ module.exports = {
 
           accent: "#37CDBE",
 
-          neutral: "#2A2E37",
+          neutral: "#1A1A1A",
 
           "base-100": "#000000",
 
@@ -31,6 +32,14 @@ module.exports = {
           warning: "#FBBD23",
 
           error: "#F87272",
+        },
+        backgroundImage: {
+          "hero-pattern":
+            "url('https://blog.icons8.com/wp-content/uploads/2020/02/how-to-create-gradient-article.jpg')",
+          "footer-texture": "url('/img/footer-texture.png')",
+        },
+        maxWidth: {
+          200: "200px",
         },
       },
     ],

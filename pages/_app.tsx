@@ -1,20 +1,14 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import { Header } from "../src/components/Header";
+import { Header } from "../src/components";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <div className="min-h-screen">
-        <div className="gradient-bg-welcome">
-          <Header />
-
-          <div
-            className="max-w-7xl m-auto "
-            style={{ border: "1px solid lime" }}
-          >
-            <Component {...pageProps} />
-          </div>
+      <div>
+        <Header className="fixed" />
+        <div className="">
+          <Component {...pageProps} />
         </div>
       </div>
     </>
