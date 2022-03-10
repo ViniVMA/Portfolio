@@ -3,7 +3,7 @@ import { Button } from "..";
 
 function HeroSection() {
   return (
-    <div className=" hero  flex flex-col justify-around sm:h-[86.5vh]">
+    <div className="hero  flex flex-col justify-around sm:h-[86.5vh]">
       <div className="hero-content sm:mt-72 mt-32 flex flex-col h-full justify-between ">
         <div>
           <span className="font-light  border-b-2 border-primary pb-1">

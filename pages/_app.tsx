@@ -6,8 +6,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <div>
-        <Header className="fixed" />
-        <div className="">
+        <Header />
+        <div>
           <Component {...pageProps} />
         </div>
       </div>
